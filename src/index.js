@@ -1,1 +1,1 @@
-console.log("Hello");
+console.log("Prueba del archivo index.js");
