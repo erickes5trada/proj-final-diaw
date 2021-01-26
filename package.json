@@ -26,11 +26,14 @@
     "@babel/preset-env": "^7.12.11",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
+    "bootstrap": "^5.0.0-beta1",
     "css-loader": "^5.0.1",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-webpack-plugin": "^2.4.3",
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^7.0.1",
     "prettier": "^2.2.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.17.0",
@@ -38,7 +41,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "bootstrap": "^4.6.0",
+    "@popperjs/core": "^2.6.0",
     "eslint-config-airbnb": "^18.2.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"

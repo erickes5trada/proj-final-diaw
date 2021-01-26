@@ -1,0 +1,663 @@
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.prev{
+    background: linear-gradient(180deg, #004882 0%, #06467e 35%, #004882 100%);
+    height: 25px;
+  
+}
+
+
+.reloj{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 1em;
+  
+}
+
+h2{
+    color:  #06467e;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li > a:hover{
+    color: rgb(0, 170, 255);
+}
+
+ul{
+    text-align: justify;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin:0;
+   height: 100px;
+    
+}
+
+.tecnm{
+    display:flex;
+    height: 100%;
+    width:12%;
+    margin: 5px;
+}
+
+.itgam{
+    display: flex;
+    height: 100%;
+    width:12%;
+    margin: 5px;
+}
+
+h1{
+    line-height: 70px;
+    font-size: 36px;
+    margin:20px 0px 0px 0px;
+    font-family: 'Cairo',sans-serif;
+}
+
+nav{
+    background: linear-gradient(180deg, #004882 0%, #06467e 35%, #004882 100%);
+    width: 100%;
+}
+
+.nav-item{
+    margin-left: 50px;
+}
+
+.izq{
+    margin-left:-8px
+}
+
+
+.card-text{
+    text-align: justify;
+}
+
+.card-header{
+    background: #cbdbe9;
+}
+
+.card-img{
+    height:250px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.boton{
+    background: #DF0932;
+    color: white;
+  
+   
+}
+
+
+footer{
+    display: flex;
+    background:  linear-gradient(180deg, #004882 0%, #06467e 35%, #004882 100%);
+    color: white;
+}
+
+.contenedor-footer{
+    margin-top: 20px;
+}
+
+
+
+.iconos{
+    text-decoration: none;
+    color: white;
+}
+
+.iconos:hover{
+    color: #58aaee;
+}
+
+
+.img-clic:hover{
+    filter: opacity(.5);
+    transition: .5s;
+    
+}
+
+/* CLASES */
+.card-body{
+    text-align: justify;
+}
+
+.container1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 1rem 0;
+    background-color: #fff;
+}
+.heading{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 7px;
+    margin-right: -3px;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: #333;
+    position: relative;
+    line-height: 50px;
+}
+.heading::after{
+    content: "";
+    width: 10rem;
+    height: .8rem;
+    background-color: #45ade1;
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+}
+
+.card-wrapper1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.card1{
+    width: 25rem;
+    background-color: #ebeef8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
+}
+
+.card1 .card-img1{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+}
+.profile{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -11rem;
+    z-index: 999;
+    border:1rem solid #ebeef8;
+}
+.card1 h1{
+    font-size: 26px;
+    color: #333;
+    margin: 1.5rem 0;
+}
+
+.job-title{
+    color: #777;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: -20px ;
+}
+
+.about{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    font-style: italic;
+    text-align: justify;
+    color: #333;
+}
+
+.card1 .btn1{
+    padding: 1rem 2.5rem;
+    background-color: #445ae3;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    color: #eee;
+    font-size: 1.4rem;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+.card1 .btn1:hover{
+    transform: translateY(-2px);
+    box-shadow: .5rem .5rem 2rem rgba(0,0,0,0.2);
+}
+
+.card1 .btn1:active{
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.social-media{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.social-media i{
+    font-size: 3rem;
+    transition: color .5s;
+}
+.fa-facebook-square{
+    color:#3b5999;
+}
+
+.fa-twitter-square{
+    color: #55acee;
+}
+.fa-youtube-square{
+    color: #dd4b39;
+}
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-youtube-square:hover{
+    color: #45e19f;
+}
+
+@media screen and (min-width: 700px){
+    .card-wrapper1{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card1{
+        margin: 2rem;
+        transition: transfprm .5s;
+    }
+
+    @keyframes fadeIn {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    .card1:nth-child(1){
+        animation:fadeIn .5s .5s backwards;
+    }
+    .card1:nth-child(2){
+        animation:fadeIn .5s 1s backwards;
+    }
+    .card1:nth-child(3){
+        animation:fadeIn .5s 1.5s backwards;
+    }
+    .card1:nth-child(4){
+        animation:fadeIn .5s 2s backwards;
+    }   
+
+    .card1:hover{
+        transform: scale(1.05);
+    }
+}
+
+
+
+
+/* PAGINA DE OBJETIVO */
+
+.img-obj{
+    margin-left: 12px;
+}
+
+.Ogeneral{
+    font-size: 19.5px;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.OEspecifico{
+    display: flex;
+    position: relative;
+    left: 40%;
+    margin: 10px 10px;
+}
+.especific{
+    font-size: 18px;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+.obj{
+    float: right;
+    width: 150px;
+    height: 220px;
+    margin-right: -26%;
+
+}
+.COcupacional{
+    font-size: 18px;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.mundo{
+    float: right;
+    width: 200px;
+    height: 140px;
+    margin-right: 10%;
+    margin-top: 5%;
+    border-radius: 37px
+
+}
+.PEgreso{
+    display: flex;
+    position: relative;
+    left: 40%;
+}
+.AEgreso{
+    font-size: 18px;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.edu{
+    float: left;
+    width: 130px;
+    height: 130px;
+    margin-left: -40%;
+}
+
+
+/* Pagina Perfil de ingreso*/
+h3{
+    text-align: center;
+}
+.contenedor{
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.oferta{
+    float: left;
+    width: 340px;
+    height: 240px;
+}
+.beca{
+    float: left;
+    width: 340px;
+    height: 200px;
+}
+
+/* PLAN DE ESTUDIOS  */
+.cont{
+    margin: 10px 30px 0px 20px;
+    width: 750px;
+    
+}
+.cont1{
+    background-color: #66ccff;
+}
+.card-cabecera{
+    background-color: #9097cf;
+}
+.PlanEstudios{
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.tarjeta{
+    background-color:#454cd6;
+
+}
+.tarjeta-grupo{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.tag-title{
+    text-align: center;
+}
+
+
+
+/* _________________   */
+
+
+/* RESPONSIVIDAD */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .reloj{
+        font-size: 14px;
+    }
+
+    h1{
+        line-height: 40px;
+        font-size: 24px;
+        margin: 20px 0px 0px 0px;
+        justify-self: center;
+        text-align: center;
+    }
+
+    nav{
+        font-size: 11px;
+    }
+
+    
+    .itgam{
+        margin-top: 10px;
+        width: 20%;
+        height: 102%;
+    }
+
+    .tecnm{
+        margin-top: 10px;
+        height: 110%;
+        width: 25%;
+    }
+
+    /**/
+
+
+    /**/
+
+
+
+}
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .prev{
+        height: 20px;
+    }
+
+
+    .reloj{
+        
+        font-size: 12px;
+    }
+
+    h1{
+        font-size: 26px;
+        margin: 20px 3px 0px 3px;
+        line-height: 40px;
+        justify-self: center;
+        text-align: center;
+    }
+
+    
+    .itgam{
+        margin-top: 10px;
+        width: 20%;
+        height: 102%;
+    }
+
+    .tecnm{
+        margin-top: 10px;
+        height: 110%;
+        width: 25%;
+    }
+
+    /**/
+
+
+    /**/
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .prev{
+        height: 17px;
+    }
+
+
+
+    .reloj{
+        
+        font-size: 10px;
+    }
+
+    header{
+        height: 45px;
+    }
+
+    h1{
+        font-size: 18px;
+        margin: 5px 5px 5px 5px;
+        line-height: 30px;
+        justify-self: center;
+        text-align: center;
+        
+    }
+
+
+    .itgam{
+        margin-top: 7px;
+        height: 130%;
+        width: 20%;
+    }
+
+    .tecnm{
+        margin-top: 2px;
+        height: 150%;
+        width: 20%;
+    }
+
+    footer
+    {
+        font-size: 10px;
+    }
+
+     /**/
+    .heading{
+        font-size: 2.4rem;
+    }
+
+
+    .card-img{
+        height: 150px;
+    }
+
+    .Ogeneral{
+        font-size: 14px;
+    }
+
+    .especific{
+        font-size: 14px;
+    }
+
+    .COcupacional{
+        font-size: 14px;
+    }
+
+    .AEgreso{
+        font-size: 16px;
+    }
+
+    .img-obj{
+        margin-left: 0px;
+    }
+
+    .sombrero{
+        margin-top: 70px;
+    }
+
+    .mundo{
+        margin-top: 50px;
+    }
+    /**/
+
+}
+
+@media only screen and (max-width: 479px) {
+
+    .prev{
+        height: 15px;
+    }
+
+    .reloj{
+        
+        font-size: 9px;
+    }
+    header{
+        height: 45px;
+    }
+
+    h1{
+        font-size: 13px;
+        margin: 12px 5px 5px 5px;
+        line-height: 13px;
+        justify-self: center;
+        text-align: center;
+        
+    }
+
+
+    .itgam{
+        margin-top: 10px;
+        width: 20%;
+        height: 102%;
+    }
+
+    .tecnm{
+        margin-top: 10px;
+        height: 110%;
+        width: 25%;
+    }
+   /**/
+   .Ogeneral{
+    font-size: 13px;
+}
+
+.especific{
+    font-size: 14px;
+}
+
+.AEgreso{
+    font-size: 14px;
+}
+
+.img-obj{
+    display: none;
+}
+
+
+    /**/
+}
+
+
+
+
+
+
