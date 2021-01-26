@@ -1,50 +1,27 @@
 {
-  "name": "proj-final-diaw",
-  "version": "1.0.0",
-  "description": "Proyecto final de la materia de Diseño de Aplicaciones Web",
-  "main": "index.js",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --config ./webpack.config.js --mode development",
-    "build:client": "webpack --mode production"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/erickes5trada/proj-final-diaw.git"
-  },
-  "keywords": [
-    "node",
-    "frontend"
-  ],
-  "author": "Erick Estrada Senado <erick.e.senado@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/erickes5trada/proj-final-diaw/issues"
-  },
-  "homepage": "https://github.com/erickes5trada/proj-final-diaw#readme",
-  "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "babel-eslint": "^10.1.0",
-    "babel-loader": "^8.2.2",
-    "bootstrap": "^5.0.0-beta1",
-    "css-loader": "^5.0.1",
-    "eslint": "^7.18.0",
-    "eslint-config-prettier": "^7.2.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-webpack-plugin": "^2.4.3",
-    "file-loader": "^6.2.0",
-    "image-webpack-loader": "^7.0.1",
-    "prettier": "^2.2.1",
-    "style-loader": "^2.0.0",
-    "webpack": "^5.17.0",
-    "webpack-cli": "^4.4.0",
-    "webpack-dev-server": "^3.11.2"
+    "start": "node server.js"
   },
   "dependencies": {
-    "@popperjs/core": "^2.6.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
-  }
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
