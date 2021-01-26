@@ -1,0 +1,3 @@
+#ignora Archivos de configuracion
+*.config.js
+dist
